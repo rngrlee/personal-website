@@ -41,14 +41,14 @@ a {
 }
 
 .profile img {
-    width: 400px;
+    width: 370px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 5px;
 }
 
 .bio {
-    width: 400px;
+    width: 370px;
     color: #ffffff;
     font-size: 1.2rem;
 }
