@@ -14,7 +14,7 @@ body {
     margin-top: 50px;
     margin-bottom: 25px;
     letter-spacing: 4pt;
-    font-size: 64px;
+    font-size: 48px;
 
 }
 
@@ -25,8 +25,8 @@ body {
 }
 
 #linkedin, #github, #resume, #email {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a {
@@ -41,14 +41,14 @@ a {
 }
 
 .profile img {
-    width: 370px;
+    width: 340px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 5px;
 }
 
 .bio {
-    width: 370px;
+    width: 340px;
     color: #ffffff;
     font-size: 1.2rem;
 }
@@ -60,9 +60,35 @@ footer {
 }
 
 @media (min-width: 576px) {
+    .name {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        letter-spacing: 4pt;
+        font-size: 64px;
+    
+    }
+    
+    #linkedin, #github, #resume, #email {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .profile {
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+    }
+
+    .profile img {
+        width: 375px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    
+    .bio {
+        width: 375px;
+        color: #ffffff;
+        font-size: 1.2rem;
     }
 }
